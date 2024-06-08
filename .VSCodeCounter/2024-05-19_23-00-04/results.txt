@@ -1,0 +1,130 @@
+Date : 2024-05-19 23:00:04
+Directory : /home/onefore/projects/flutter-projects/clean_architecture/lib
+Total : 67 files,  1977 codes, 0 comments, 320 blanks, all 2297 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Dart     |         67 |      1,977 |          0 |        320 |      2,297 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                     | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                        |         67 |      1,977 |          0 |        320 |      2,297 |
+| . (Files)                                                                                                                |          1 |         29 |          0 |          2 |         31 |
+| data                                                                                                                     |         21 |        659 |          0 |        114 |        773 |
+| data/api                                                                                                                 |         15 |        418 |          0 |         76 |        494 |
+| data/api/model                                                                                                           |          3 |         56 |          0 |          7 |         63 |
+| data/api/request                                                                                                         |          3 |         43 |          0 |          9 |         52 |
+| data/api/response                                                                                                        |          4 |         54 |          0 |         18 |         72 |
+| data/api/service                                                                                                         |          3 |        166 |          0 |         23 |        189 |
+| data/api/utils                                                                                                           |          2 |         99 |          0 |         19 |        118 |
+| data/mapper                                                                                                              |          2 |         28 |          0 |          3 |         31 |
+| data/repository                                                                                                          |          4 |        213 |          0 |         35 |        248 |
+| domain                                                                                                                   |         22 |        515 |          0 |        105 |        620 |
+| domain/bloc                                                                                                              |         15 |        403 |          0 |         89 |        492 |
+| domain/bloc/auth                                                                                                         |          3 |         96 |          0 |         21 |        117 |
+| domain/bloc/cources_page                                                                                                 |          3 |         57 |          0 |         14 |         71 |
+| domain/bloc/course_page                                                                                                  |          3 |         81 |          0 |         14 |         95 |
+| domain/bloc/nested_page                                                                                                  |          3 |         63 |          0 |         16 |         79 |
+| domain/bloc/user                                                                                                         |          3 |        106 |          0 |         24 |        130 |
+| domain/constants                                                                                                         |          2 |         18 |          0 |          2 |         20 |
+| domain/model                                                                                                             |          5 |         94 |          0 |         14 |        108 |
+| internal                                                                                                                 |          5 |         99 |          0 |         16 |        115 |
+| internal (Files)                                                                                                         |          2 |         64 |          0 |          4 |         68 |
+| internal/dependencies                                                                                                    |          3 |         35 |          0 |         12 |         47 |
+| internal/dependencies/module                                                                                             |          3 |         35 |          0 |         12 |         47 |
+| presentation                                                                                                             |         18 |        675 |          0 |         83 |        758 |
+| presentation/design                                                                                                      |          1 |          4 |          0 |          2 |          6 |
+| presentation/pages                                                                                                       |         15 |        623 |          0 |         71 |        694 |
+| presentation/pages/account                                                                                               |          1 |         18 |          0 |          2 |         20 |
+| presentation/pages/account/view                                                                                          |          1 |         18 |          0 |          2 |         20 |
+| presentation/pages/course                                                                                                |          3 |        191 |          0 |         22 |        213 |
+| presentation/pages/course/view                                                                                           |          3 |        191 |          0 |         22 |        213 |
+| presentation/pages/courses                                                                                               |          4 |        134 |          0 |         14 |        148 |
+| presentation/pages/courses/view                                                                                          |          2 |         50 |          0 |          6 |         56 |
+| presentation/pages/courses/widgets                                                                                       |          2 |         84 |          0 |          8 |         92 |
+| presentation/pages/nested                                                                                                |          4 |        168 |          0 |         15 |        183 |
+| presentation/pages/nested/view                                                                                           |          4 |        168 |          0 |         15 |        183 |
+| presentation/pages/sign_in                                                                                               |          3 |        112 |          0 |         18 |        130 |
+| presentation/pages/sign_in/view                                                                                          |          2 |         74 |          0 |         12 |         86 |
+| presentation/pages/sign_in/widget                                                                                        |          1 |         38 |          0 |          6 |         44 |
+| presentation/widgets                                                                                                     |          2 |         48 |          0 |         10 |         58 |
++--------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                                 | language | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/data/api/model/course_api.dart                            | Dart     |         24 |          0 |          3 |         27 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/data/api/model/teacher_api.dart                           | Dart     |          2 |          0 |          1 |          3 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/data/api/model/user_api.dart                              | Dart     |         30 |          0 |          3 |         33 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/data/api/request/logout_body.dart                         | Dart     |          7 |          0 |          3 |         10 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/data/api/request/sign_in_body.dart                        | Dart     |         12 |          0 |          3 |         15 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/data/api/request/sign_up_body.dart                        | Dart     |         24 |          0 |          3 |         27 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/data/api/response/auth_response.dart                      | Dart     |         10 |          0 |          3 |         13 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/data/api/response/courses_response.dart                   | Dart     |         14 |          0 |          5 |         19 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/data/api/response/my_reposnse.dart                        | Dart     |         24 |          0 |          7 |         31 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/data/api/response/user_response.dart                      | Dart     |          6 |          0 |          3 |          9 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/data/api/service/auth_service.dart                        | Dart     |         61 |          0 |         10 |         71 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/data/api/service/courses_service.dart                     | Dart     |         77 |          0 |          8 |         85 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/data/api/service/user_service.dart                        | Dart     |         28 |          0 |          5 |         33 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/data/api/utils/api_util.dart                              | Dart     |         16 |          0 |          4 |         20 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/data/api/utils/middleware.dart                            | Dart     |         83 |          0 |         15 |         98 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/data/mapper/course_mapper.dart                            | Dart     |         21 |          0 |          2 |         23 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/data/mapper/user_mapper.dart                              | Dart     |          7 |          0 |          1 |          8 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/data/repository/auth_repository.dart                      | Dart     |         56 |          0 |          7 |         63 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/data/repository/courses_repository.dart                   | Dart     |         89 |          0 |         11 |        100 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/data/repository/token_repository.dart                     | Dart     |         51 |          0 |         13 |         64 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/data/repository/user_repository.dart                      | Dart     |         17 |          0 |          4 |         21 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/domain/bloc/auth/auth_bloc.dart                           | Dart     |         47 |          0 |          7 |         54 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/domain/bloc/auth/auth_event.dart                          | Dart     |         23 |          0 |          8 |         31 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/domain/bloc/auth/auth_state.dart                          | Dart     |         26 |          0 |          6 |         32 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/domain/bloc/cources_page/courses_page_bloc.dart           | Dart     |         26 |          0 |          5 |         31 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/domain/bloc/cources_page/courses_page_event.dart          | Dart     |          7 |          0 |          3 |         10 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/domain/bloc/cources_page/courses_page_state.dart          | Dart     |         24 |          0 |          6 |         30 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/domain/bloc/course_page/course_page_bloc.dart             | Dart     |         31 |          0 |          5 |         36 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/domain/bloc/course_page/course_page_event.dart            | Dart     |          7 |          0 |          3 |         10 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/domain/bloc/course_page/course_page_state.dart            | Dart     |         43 |          0 |          6 |         49 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/domain/bloc/nested_page/nested_page_bloc.dart             | Dart     |         28 |          0 |          5 |         33 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/domain/bloc/nested_page/nested_page_event.dart            | Dart     |         11 |          0 |          5 |         16 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/domain/bloc/nested_page/nested_page_state.dart            | Dart     |         24 |          0 |          6 |         30 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/domain/bloc/user/user_bloc.dart                           | Dart     |         61 |          0 |         11 |         72 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/domain/bloc/user/user_event.dart                          | Dart     |         14 |          0 |          7 |         21 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/domain/bloc/user/user_state.dart                          | Dart     |         31 |          0 |          6 |         37 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/domain/constants/http_backpoints.dart                     | Dart     |         14 |          0 |          1 |         15 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/domain/constants/storage_keys.dart                        | Dart     |          4 |          0 |          1 |          5 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/domain/model/course.dart                                  | Dart     |         17 |          0 |          3 |         20 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/domain/model/nested.dart                                  | Dart     |         62 |          0 |          6 |         68 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/domain/model/role.dart                                    | Dart     |          1 |          0 |          1 |          2 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/domain/model/teacher.dart                                 | Dart     |         13 |          0 |          3 |         16 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/domain/model/user.dart                                    | Dart     |          1 |          0 |          1 |          2 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/internal/application.dart                                 | Dart     |         61 |          0 |          4 |         65 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/internal/dependencies/module/api_module.dart              | Dart     |          8 |          0 |          4 |         12 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/internal/dependencies/module/repository_module.dart       | Dart     |         10 |          0 |          2 |         12 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/internal/dependencies/module/service_module.dart          | Dart     |         17 |          0 |          6 |         23 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/internal/markdown_logic.dart                              | Dart     |          3 |          0 |          0 |          3 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/main.dart                                                 | Dart     |         29 |          0 |          2 |         31 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/presentation/design/theme.dart                            | Dart     |          4 |          0 |          2 |          6 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/presentation/pages/account/view/account_page.dart         | Dart     |         18 |          0 |          2 |         20 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/presentation/pages/course/view/course_form.dart           | Dart     |        126 |          0 |         14 |        140 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/presentation/pages/course/view/course_page.dart           | Dart     |         32 |          0 |          4 |         36 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/presentation/pages/course/view/course_tab.dart            | Dart     |         33 |          0 |          4 |         37 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/presentation/pages/courses/view/courses_form.dart         | Dart     |         33 |          0 |          3 |         36 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/presentation/pages/courses/view/courses_page.dart         | Dart     |         17 |          0 |          3 |         20 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/presentation/pages/courses/widgets/courses_list_view.dart | Dart     |         70 |          0 |          5 |         75 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/presentation/pages/courses/widgets/falure_widget.dart     | Dart     |         14 |          0 |          3 |         17 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/presentation/pages/nested/view/info_page.dart             | Dart     |         38 |          0 |          3 |         41 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/presentation/pages/nested/view/lab_page.dart              | Dart     |         34 |          0 |          3 |         37 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/presentation/pages/nested/view/nested_page.dart           | Dart     |         54 |          0 |          6 |         60 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/presentation/pages/nested/view/test_page.dart             | Dart     |         42 |          0 |          3 |         45 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/presentation/pages/sign_in/view/sign_in_form.dart         | Dart     |         42 |          0 |          7 |         49 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/presentation/pages/sign_in/view/sign_in_page.dart         | Dart     |         32 |          0 |          5 |         37 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/presentation/pages/sign_in/widget/submit_button.dart      | Dart     |         38 |          0 |          6 |         44 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/presentation/widgets/bottom_bar.dart                      | Dart     |         37 |          0 |          6 |         43 |
+| /home/onefore/projects/flutter-projects/clean_architecture/lib/presentation/widgets/splash_screen.dart                   | Dart     |         11 |          0 |          4 |         15 |
+| Total                                                                                                                    |          |      1,977 |          0 |        320 |      2,297 |
++--------------------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
